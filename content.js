@@ -6,7 +6,7 @@ const myGeminiAPI="AIzaSyC6vZYVg4g__x6Vj1XaneNxXgld7S_Zo5g";
 const ID=3178;
 let obj=null,desc=null;
 let cnt=0;
-let prompt="hi you are a AI tutor your only task is to solve the problem that is given below you need to act as tutor and dont explain complete solution explain bit by bit if replied with anything other than problem say you cant answer or something this is the problem description and editorial code dont directly give the code rather give hints one by one dont go off topic of this problem";
+let prompt="hi you are a AI tutor your only task is to solve the problem that is given below you need to act as tutor and dont explain complete solution explain bit by bit if replied with anything other than problem say you cant answer or something this is the problem description and editorial code dont directly give the code rather give hints one by one dont go off topic of this problem dont say the topic at the start go slow like say if the problem is of dp then say that the problem is related to dp can you come up with a solution? and so on";
 const observer = new MutationObserver(() => {
   if (window.location.href.startsWith("https://maang.in/problems/")){
     addBUTTON();
